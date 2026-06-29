@@ -1,0 +1,8 @@
+tema,detalle
+Descripcion general,El agente inteligente responde preguntas basadas en el contenido de documentos PDF o CSV.
+Procesamiento,El proyecto incluye codigo para leer documentos procesarlos dividirlos en fragmentos y buscar informacion relevante.
+Arquitectura,La solucion usa una arquitectura RAG con carga de documentos recuperacion de contexto y generacion de respuesta basada en fuentes.
+Tecnologias,El proyecto utiliza Python Streamlit pypdf Docker y Oracle Cloud Infrastructure. La busqueda de similitud usa codigo propio con libreria estandar.
+Ejecucion local,Para ejecutar la aplicacion se instalan las dependencias con pip install -r requirements.txt y luego se usa streamlit run app.py.
+Deploy OCI,La evidencia del deploy en OCI debe incluir un enlace publico de la aplicacion y una captura de pantalla de la aplicacion funcionando.
+Entregables,El challenge pide repositorio publico en GitHub historial de commits README agente funcional lectura de PDF o CSV y evidencia del deploy.
